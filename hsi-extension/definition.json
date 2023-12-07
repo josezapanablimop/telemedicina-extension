@@ -1,8 +1,8 @@
 [
   {
-    "slot": "HOME_MENU",
-    "title": "Releases de HSI",
-    "componentName": "hsi-releases",
-    "url": "./main.js"
-  }
+	"slot":"HOME_MENU",  
+	"title": "Mi salud digita",
+	"componentName": "portal-telemedicina-component",
+	"url": "./webComponent.js"
+  }  
 ]

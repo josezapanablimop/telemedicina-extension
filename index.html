@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Releases de HSI</title>
-    <!-- carga el web-component -->
-    <script src="hsi-extension/main.js" defer></script>
-  </head>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Web Component portal Telemedicina</title>
+</head>
+<body>
+<h1>Portal Telemedicina</h1>
+<!-- Agrega el componente -->
+<portal-telemedicina-component></portal-telemedicina-component>
 
-  <body>
-    <h1>
-      WebComponent para mostrar las releases de HSI (<a href="hsi-extension/definition.json">ver definition.json</a>)
-    </h1>
-    <!-- instancia el web-component -->
-    <hsi-releases />
-  </body>
+
+<!-- Importa el archivo JavaScript -->
+<script src="hsi-extension/webComponent.js"></script>
+
+</body>
 </html>
